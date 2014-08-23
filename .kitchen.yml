@@ -3,13 +3,13 @@ driver:
   name: docker
 
 provisioner:
-  name: chef_solo
+  name: chef_zero
 
 platforms:
-  - name: ubuntu-12.04
   - name: centos-6.4
 
 suites:
   - name: default
     run_list:
+      - recipe[oh_my_zsh]
     attributes:
