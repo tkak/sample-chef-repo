@@ -1,6 +1,6 @@
 {
     "name": "my_node",
-        "tz": "Asia/Tokyo",
+    "tz": "Asia/Tokyo",
     "run_list": [
         "recipe[timezone-ii]"
     ]
