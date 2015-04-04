@@ -1,2 +1,7 @@
 .kitchen/
 .kitchen.local.yml
+.vagrant/
+Berksfile.lock
+nodes/localhost.json
+local-mode-cache
+cookbooks/
